@@ -22,7 +22,7 @@ VERSION ?= v0.1.0
 TARGETS := kube-extra-exporter
 
 # Container registries.
-REGISTRIES ?= ""
+REGISTRIES ?= tong16/
 
 # Container image prefix and suffix added to targets.
 # The final built images are:
